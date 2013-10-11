@@ -244,6 +244,7 @@ echo '</div>';
 
 
 // Print all the little details in a list
+// add custom
 
 echo html_writer::start_tag('dl', array('class'=>'list'));
 if (!isset($hiddenfields['country']) && $user->country) {
